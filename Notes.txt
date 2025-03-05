@@ -1,0 +1,18 @@
+﻿Exeption Handling:
+
+1) try-catch-finally
+2) Overriding OnException method
+Overwrites the OnException() which is a void method that takes argument as ExceptionContext object 
+that has all information about the exception so that it could be logged to a file.
+ExceptionHandled=true is necessary for the ExceptionContext object.
+We can handle all the exceptions  generated from all the actions from that specific controller.
+
+3) HandleError Attribute----> can't log the exception 
+It doesn't catch httpexceptions  other than 500
+It doesn't catch exception handled outside controller
+And it returns error view for exceptions raised in Ajax calls
+
+4) Global Exception handling filter- Handling Application_Error event
+5) Custom Exception handling using HandleError[]----Most Used--because of reusablity
+
+
