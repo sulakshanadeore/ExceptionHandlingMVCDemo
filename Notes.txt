@@ -16,3 +16,9 @@ And it returns error view for exceptions raised in Ajax calls
 5) Custom Exception handling using HandleError[]----Most Used--because of reusablity
 
 
+------------------------------------------------------
+
+Caching:
+Holding the data in the memory for specific period of time, and after that getting the new data which is available to show on the view.
+1) Cache
+2) CacheProfile
